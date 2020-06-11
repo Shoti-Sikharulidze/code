@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.vira{
+    font-size: 400%;
+    margin-left: 30px;
+    text-transform: uppercase;
+    margin-right: 1050px;
+    color: white;
+}
+
+.navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+    margin-left: 25px;
+    font-size: 110%;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: white;
+    margin-left: 25px;
+    font-size: 110%;
+}
+
+header{
+    background-image: url(bg1.PNG);
+    height: 719px;
+    align-items: center;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+} 
+
+.b1{
+    display: flex;
+    justify-content: center;
+    margin: 20px auto;
+    width: 260px;
+    border-radius: 35px;
+    background-color: #65bc7b;
+    border-color: #65bc7b;
+    text-align: center;
+    padding: 17px 25px;
+    text-transform: uppercase;
+}
+
+.p1{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.t1, .t3{
+    color: white;
+    font-size: 300%;
+}
+
+.t1, .t2, .t3{
+    text-align: center;
+    height: 100px;
+    align-items: center;
+}
+
+.t2{
+    color: #65bc7b;;
+    font-size: 500%;
+}    
+
+.about-us{
+    width: 124px;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+    color: white;
+}
+
+.b1:hover{
+    color: black;
+    background-color: white;
+    border-color: white;
+    transition: 0.2s;
+}
+
+.boxes{
+    width: 1120px;
+    height: 210px;
+    margin-left: 400px;
+    margin-right: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+
+.box1{
+    width: 30%;
+    height:100%;
+    background-color: #65bc7b;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13.65px 1.35px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    position: relative;
+}
+
+.box2{
+    width: 30%;
+    height:100%;
+    background-color: #1a2431;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13.65px 1.35px rgba(0, 0, 0, 0.2);
+   position: relative;
+   overflow: hidden;
+}
+
+.box3{
+    width: 30%;
+    height:100%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 13.65px 1.35px rgba(0, 0, 0, 0.2);
+    position: relative;
+    overflow: hidden;
+}
+
+.box1 h3, .box2 h3, .box1 p, .box2 p{
+    color: white;
+}
+
+.box3 h3, .box3 p{
+    color: #54585e;
+}
+
+.boxes h3{
+    padding-left: 22px;
+    padding-top: 23px;
+}
+
+.boxes p{
+    padding-left: 22px;
+    padding-right: 22px;
+}
+
+.st1{
+    display: flex;
+    justify-content: center;
+    margin-top: 210px;
+    color: #54585e;
+}
+
+.st1 span{
+    text-transform: uppercase;
+    color: #54585e;
+    font-weight: 500;
+    font-weight: bold;
+}
+
+.sboxes1, .sboxes2{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 390px;
+    margin-right: 390px;
+    margin-top: 60px
+}
+
+.sboxes1 div, .sboxes2 div{
+    box-shadow: 0px 0px 13.65px 1.35px rgba(0, 0, 0, 0.2);
+    height: 255px;
+    width: 250px;
+    transition: all 0.3s;
+}
+
+.sboxes2{
+    margin-top: 40px;
+}
+
+.sboxes h3{
+    text-align: center;
+    padding-top: 115px;
+    font-weight: bold;
+    color: #54585e;
+}
+
+.sboxes p{
+    font-size: 115%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 10px;
+    text-align: center;
+    color: #54585e;
+}
+
+.sboxes1 div:hover, .sboxes2 div:hover{
+    background-color: #1a2431;
+}
+
+.sboxes1 div:hover h3, .sboxes2 div:hover h3{
+    color: white;
+}
+
+.sboxes1 div:hover p, .sboxes2 div:hover p{
+    color: white;
+}
+
+.btn-border{
+    border: 3px solid #007bff;
+    border-radius: 30px;
+    padding: 4px;
+    width: 190px;
+}
+.btn{
+    border-radius: 30px;
+    padding: 15px 60px;
+
+    margin-left: auto;
+}
+.icon-box{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    
+    background-color: #1a2431;
+    border-radius: 50%;
+    left: 270px;
+    top: -60px;
+}
+.fa-file-invoice{
+    font-size: 28px;
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+    color: white;
+
+}
+.icon-box{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    right: -70px;
+    top: -70px;
+    background-color: #1a2431;
+    border-radius: 50%;
+    background-color: white;
+    
+}
+.fas-user-tie{
+    position: absolute;
+    top: 60px;
+    color: #1a2431;
+    font-size: 50px;
+    left: 20px;
+}
+
