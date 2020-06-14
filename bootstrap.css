@@ -157,8 +157,8 @@ header{
 .sboxes1, .sboxes2{
     display: flex;
     justify-content: space-between;
-    margin-left: 390px;
-    margin-right: 390px;
+    margin-left: 300px;
+    margin-right: 300px;
     margin-top: 60px
 }
 
@@ -175,9 +175,10 @@ header{
 
 .sboxes h3{
     text-align: center;
-    padding-top: 115px;
+    padding-top: 0px;
     font-weight: bold;
     color: #54585e;
+    margin-top: 10px;
 }
 
 .sboxes p{
@@ -188,6 +189,10 @@ header{
     text-align: center;
     color: #54585e;
 }
+.btn-border{
+    margin-left: 850px;
+}
+
 
 .sboxes1 div:hover, .sboxes2 div:hover{
     background-color: #1a2431;
@@ -200,7 +205,38 @@ header{
 .sboxes1 div:hover p, .sboxes2 div:hover p{
     color: white;
 }
-
+.sboxes1 div:hover .fa-user-edit{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes1 div:hover .fa-search{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes1 div:hover .fa-file-signature{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes1 div:hover .fa-bullhorn{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes2 div:hover .fa-laptop-code{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes2 div:hover .fa-chalkboard-teacher{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes2 div:hover .fa-share-alt{
+    background-color: #65bc7b;
+    color: white;
+}
+.sboxes2 div:hover .fa-paint-brush{
+    background-color: #65bc7b;
+    color: white;
+}
 .btn-border{
     border: 3px solid #007bff;
     border-radius: 30px;
@@ -231,6 +267,22 @@ header{
     color: white;
 
 }
+.fa-user-tie{
+    font-size: 28px;
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+    color: black;
+
+}
+.fa-chair{
+    font-size: 28px;
+    position: absolute;
+    bottom: 28px;
+    left: 30px;
+    color: black;
+
+}
 .icon-box{
     position: absolute;
     width: 140px;
@@ -239,14 +291,234 @@ header{
     top: -70px;
     background-color: #1a2431;
     border-radius: 50%;
-    background-color: white;
+   
     
 }
-.fas-user-tie{
+
+.icon-box1{
     position: absolute;
-    top: 60px;
-    color: #1a2431;
-    font-size: 50px;
-    left: 20px;
+    width: 140px;
+    height: 140px;
+    right: -70px;
+    top: -70px;
+    background-color: white;
+    border-radius: 50%;
+   
+
 }
 
+
+
+.icon-box2{
+    position: absolute;
+    width: 140px;
+    height: 140px;
+    right: -70px;
+    top: -70px;
+    background-color:#65bc7b;
+    border-radius: 50%;
+   
+
+}
+
+.fa-user-edit{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 27px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-search{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-file-signature{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-bullhorn{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-laptop-code{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-chalkboard-teacher{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-share-alt{
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.fa-paint-brush{ 
+    border: 2px solid #65bc7b;
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 30px 30px;
+   margin-left: 80px;
+   margin-top: 15px;
+   color: #65bc7b;
+}
+.back-img{
+    background-image: url(Screenshot_40.jpg);
+    background-size: cover;
+    height: 800px;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+/* height 395  width 355*/
+.first-row{
+    height: 395px;
+    width: 355px;
+    border: solid #65bb7a;
+    border-radius: 5px;
+    background-color: transparent;
+    
+    margin-top: 200px;
+    margin-left: 320px;
+   
+    
+}
+
+.price .price-value{
+    color: #65bc7b;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    
+   
+
+}
+.price{
+    color: white;
+}
+.row-price{
+    display: flex;
+}
+.first-line-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.btn-border1{
+    border: 3px solid #007bff;
+    border-radius: 30px;
+    padding: 4px;
+    width: 190px;
+    margin-left: 65px;
+    margin-top: 40px;
+}
+.second-row{
+    height: 455px;
+    position: relative;
+    width: 355px;
+    left: 50px;
+    top: 160px;
+    
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.hot{
+    background-color: #65bc7b;
+    width: 150px;
+    height: 100px;
+    transform: rotate(-50deg);
+    top: -23px;
+    left: -64px;
+    position: absolute;
+    padding-left: 54px;
+    padding: top;
+    padding-top: 50px;
+
+}
+.p-hot{
+    font-size: 30px;
+    color: white;
+    font-family: 'Francois One', sans-serif;
+    letter-spacing: 3px;
+}
+.price2 .price-value2{
+    color: #65bc7b;
+    font-size: 65px;
+    font-weight: bold;
+    font-family: "Raleway", sans-serif;
+    
+   
+
+}
+.first-line-row-insecond{
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.Entrepreneur{
+font-family: 'Righteous', cursive;
+
+}
+.hours-per{
+margin-left: 86px;
+}
+.hours-per2{
+ margin-left: 86px;
+}
+.VA-Included{
+    margin-left: 108px;
+}
+.Lorem-ipsum-dolor{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.btn-border2{
+    border: 3px solid #007bff;
+    border-radius: 30px;
+    padding: 4px;
+    width: 190px;
+    margin-left: 75px;
+    margin-top: 40px;
+}
+.third-row{
+    height: 395px;
+    width: 355px;
+    border: solid #65bb7a;
+    border-radius: 5px;
+    background-color: transparent;
+    margin-left: 100px;
+    margin-top: 200px;
+    
+}
